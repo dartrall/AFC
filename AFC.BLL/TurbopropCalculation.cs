@@ -2,7 +2,7 @@
 
 namespace AFC.BLL
 {
-    public class TurbopropCalculation
+    public class TurbopropCalculation : IFuelCalculation<TurbopropCalculation>
     {
         private static decimal _usagePerMinute = 0.62m;
         private static decimal _avgSpeed = 232m;
