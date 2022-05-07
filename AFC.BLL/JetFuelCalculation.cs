@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AFC.BLL
 {
-    public class JetFuelCalculation : IFuelCalculation
+    public class JetFuelCalculation : IFuelCalculation<JetFuelCalculation>
     {
         private static decimal _usagePerMinute = 58.4m * 2;
         private static decimal _avgSpeed = 748.7m;
